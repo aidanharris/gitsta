@@ -54,7 +54,7 @@ add_action('after_setup_theme', function() {
         // jQuery is loaded from Google's CDN
         // see http://wordpress.stackexchange.com/questions/12448 for details
         wp_deregister_script('jquery');
-        wp_register_script('jquery', 'http://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', array(), '2.1.3');
+        wp_register_script('jquery', '//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js', array(), '2.1.3');
 
         function __jquery_fallback($src, $handle = null) {
             static $next = false;
