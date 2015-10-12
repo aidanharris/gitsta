@@ -8,7 +8,7 @@
   "description": "Responsive, minimalistic, clean and content-oriented theme, inspired by GitHub. Mainly designed for programmers, but suitable for any bloggers.",
   "main": "",
   "moduleType": [],
-  "license": "MIT",
+  "license": "GPL2",
   "private": true,
   "ignore": [
     "**/.*",
