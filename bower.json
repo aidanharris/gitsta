@@ -1,0 +1,26 @@
+{
+  "name": "gitsta",
+  "version": "1.4.1",
+  "homepage": "https://github.com/aidanharris/gitsta",
+  "authors": [
+    "Aidan Harris <mail@aidanharris.io>"
+  ],
+  "description": "Responsive, minimalistic, clean and content-oriented theme, inspired by GitHub. Mainly designed for programmers, but suitable for any bloggers.",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5",
+    "font-awesome": "~4.4.0",
+    "octicons": "~3.1.0",
+    "marked": "~0.3.5"
+  }
+}

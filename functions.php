@@ -80,12 +80,13 @@ JS;
         add_action('wp_head', '__jquery_fallback', 2);
 
         wp_enqueue_style('gitsta-style', get_stylesheet_uri());
-        wp_enqueue_style('bootstrap', get_template_directory_uri() . '/vendor/bootstrap/css/bootstrap.css');
-        wp_enqueue_style('font-awesome', get_template_directory_uri() . '/vendor/font-awesome/css/font-awesome.css');
-        wp_enqueue_style('octicons', get_template_directory_uri() . '/vendor/octicons/css/octicons.css');
+        wp_enqueue_style('hack', get_template_directory_uri() . '/fonts/Hack/build/webfonts/css/hack.min.css');
+        wp_enqueue_style('bootstrap', get_template_directory_uri() . '/bower_components/bootstrap/dist/css/bootstrap.css');
+        wp_enqueue_style('font-awesome', get_template_directory_uri() . '/bower_components/font-awesome/css/font-awesome.css');
+        wp_enqueue_style('octicons', get_template_directory_uri() . '/bower_components/octicons/octicons/octicons.css');
 
-        wp_enqueue_script('bootstrap', get_template_directory_uri() . '/vendor/bootstrap/js/bootstrap.js', array('jquery'));
-        wp_enqueue_script('marked', get_template_directory_uri() . '/vendor/marked.js');
+        wp_enqueue_script('bootstrap', get_template_directory_uri() . '/bower_components/bootstrap/dist/js/bootstrap.js', array('jquery'));
+        wp_enqueue_script('marked', get_template_directory_uri() . '/bower_components/marked/lib/marked.js');
 
         wp_enqueue_script('gitsta-main-js', get_template_directory_uri() . '/js/main.js');
 

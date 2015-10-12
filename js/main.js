@@ -8,7 +8,10 @@
 
 jQuery(function() {
     $ = jQuery;
-
+    
+    //$('.navbar').css('max-width',$(window).width());
+    //$('.navbar-toggle').css('position','fixed !important');
+    
     // Smooth scrolling
     // by http://css-tricks.com/snippets/jquery/smooth-scrolling/
     // Blame the dynamic sidebar its just for the "Back to top"-Link :'(...
