@@ -2,9 +2,9 @@
   "name": "gitsta",
   "version": "1.4.1",
   "description": "Responsive, minimalistic, clean and content-oriented theme, inspired by GitHub. Mainly designed for programmers, but suitable for any bloggers.",
-  "main": "http://www.aidanharris.io",
+  "main": "https://www.aidanharris.io",
   "scripts": {
-    "start": "node_modules/.bin/browser-sync start --proxy \"http://www.aidanharris.io\" --files \"**/*.js\" --files \"**/*.php\" --files \"**/*.css\"",
+    "start": "node_modules/.bin/browser-sync start --proxy \"https://www.aidanharris.io\" --files \"**/*.js\" --files \"**/*.php\" --files \"**/*.css\"",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
