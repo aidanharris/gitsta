@@ -9,7 +9,7 @@
                 <div class="col-md-6 text-right">
                     <small class="text-muted">
                         <?php printf(__('&copy <strong>%s</strong>', 'gitsta'), get_bloginfo('name')); ?></strong><br>
-                        <?php printf(__('Theme by %s', 'gitsta'), '<a href="' . esc_url('http://nehalist.io') . '" target="_blank">nehalist.io</a>'); ?>
+                        <?php printf(__('Theme by %s', 'gitsta'), '<a href="' . esc_url('https://github.com/aidanharris/gitsta') . '" target="_blank">Aidan Harris</a>'); ?>
                     </small>
                 </div>
             </div>
