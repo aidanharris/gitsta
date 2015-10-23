@@ -105,7 +105,7 @@ JS;
     if(function_exists('register_sidebar')) {
         add_action('widgets_init', function() {
             register_sidebar(array(
-                'before_widget' => '<div id="%1$s" class="widget hidden-xs">',
+                'before_widget' => '<div id="%1$s" class="widget">',
                 'after_widget'  => '</div>'
             ));
         });
