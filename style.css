@@ -220,19 +220,23 @@ li .comment:after   {
 | Display sidebar at the bottom of the page in portrait orientation
 */
 @media all
-and (orientation : portrait)
+/*and (orientation : portrait)*/
+/*and (min-width: 0 and max-width: 990px)*/
+and (orientation: portrait)
+and (min-width: 0)
+and (max-width: 1000px)
 {
   .affix {
     display: block !important;
     position: relative !important;
   }
 	.sidebar {
-    bottom: 0%;
-    padding-top: 0%;
-    margin-top: -5em;
-    padding-bottom: 10%;
-    width: 100%;
-    max-width: 100%;
+    bottom: 0% !important;
+    padding-top: 5% !important;
+    margin-top: -5em !important;
+    padding-bottom: 10% !important;
+    width: 100% !important;
+    max-width: 100% !important;
 	}
   /*
    * Make divs and hyperlinks in the sidebar display block and width 100%
@@ -245,7 +249,7 @@ and (orientation : portrait)
    * Hide search box in sidebar in portrait orientation
   */
   .sidebar #s {
-    display: none;
+    display: none !important;
   }
 }
 h2.widgettitle {
